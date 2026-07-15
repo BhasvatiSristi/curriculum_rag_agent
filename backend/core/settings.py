@@ -6,8 +6,8 @@ load_dotenv()
 # API Keys
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
-# Model
-GROQ_MODEL = "llama-3.1-8b-instant"
+# Models
+EMBEDDING_MODEL = "BAAI/bge-small-en-v1.5"
 
 # Chunking
 CHUNK_SIZE = 700
@@ -19,6 +19,9 @@ TOP_K = 5
 # Storage
 CHROMA_PATH = "backend/storage/chroma_db"
 BM25_PATH = "backend/storage/bm25_index.pkl"
+
+# Data
+DATA_DIR = "backend/data"
 
 # Collection
 COLLECTION_NAME = "curriculum"
