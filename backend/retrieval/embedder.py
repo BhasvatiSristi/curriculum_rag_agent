@@ -10,7 +10,7 @@ from typing import List
 
 from sentence_transformers import SentenceTransformer
 
-from core.settings import EMBEDDING_MODEL
+from backend.core.settings import EMBEDDING_MODEL
 
 logger = logging.getLogger(__name__)
 

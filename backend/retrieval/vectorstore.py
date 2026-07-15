@@ -10,13 +10,13 @@ from typing import Dict, List, Optional
 
 import chromadb
 
-from core.settings import (
+from backend.core.settings import (
     CHROMA_PATH,
     COLLECTION_NAME,
     TOP_K,
 )
 
-from retrieval.embedder import (
+from backend.retrieval.embedder import (
     embed_documents,
     embed_query,
 )

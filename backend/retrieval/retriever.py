@@ -6,11 +6,11 @@ Main retrieval interface for the RAG pipeline.
 
 from typing import Dict, List, Optional
 
-from core.settings import TOP_K
+from backend.core.settings import TOP_K
 
-from retrieval.vectorstore import dense_search
-from retrieval.bm25 import bm25_search
-from retrieval.hybrid import reciprocal_rank_fusion
+from backend.retrieval.vectorstore import dense_search
+from backend.retrieval.bm25 import bm25_search
+from backend.retrieval.hybrid import reciprocal_rank_fusion
 
 
 def retrieve(

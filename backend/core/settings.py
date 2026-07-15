@@ -5,6 +5,7 @@ load_dotenv()
 
 # API Keys
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+LLM_MODEL = "llama-3.1-8b-instant"
 
 # Models
 EMBEDDING_MODEL = "BAAI/bge-small-en-v1.5"

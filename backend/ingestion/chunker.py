@@ -10,7 +10,7 @@ from typing import Dict, List
 
 import tiktoken
 
-from core.settings import CHUNK_SIZE, CHUNK_OVERLAP
+from backend.core.settings import CHUNK_SIZE, CHUNK_OVERLAP
 
 logger = logging.getLogger(__name__)
 

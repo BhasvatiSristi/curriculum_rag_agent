@@ -7,11 +7,11 @@ Run the complete ingestion pipeline.
 import logging
 import time
 
-from core.settings import DATA_DIR
-from ingestion.loader import load_all_pdfs
-from ingestion.chunker import chunk_documents
-from retrieval.vectorstore import add_chunks, collection_size
-from retrieval.bm25 import build_bm25_index
+from backend.core.settings import DATA_DIR
+from backend.ingestion.loader import load_all_pdfs
+from backend.ingestion.chunker import chunk_documents
+from backend.retrieval.vectorstore import add_chunks, collection_size
+from backend.retrieval.bm25 import build_bm25_index
 
 logging.basicConfig(
     level=logging.INFO,

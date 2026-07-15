@@ -12,7 +12,7 @@ from typing import Dict, List, Optional
 
 from rank_bm25 import BM25Okapi
 
-from core.settings import BM25_PATH, TOP_K
+from backend.core.settings import BM25_PATH, TOP_K
 
 logger = logging.getLogger(__name__)
 
